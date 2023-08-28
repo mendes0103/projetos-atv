@@ -1,0 +1,6 @@
+print("quantos litros um carro consome por km")
+km= float(input("quantos km ele percorreu?"))
+lt= float(input("quantos litros ele tinha antes?"))
+sobrou= float(input("quantos litros sobrou?"))
+r= (km/(lt-sobrou))
+print(f"ele consome por km: {r}")
